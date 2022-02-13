@@ -1,9 +1,9 @@
 import * as React from 'react';
-import './index.css';
 import { ThemeProvider } from './contexts/theme';
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Loading from './components/Loading';
+import './index.css';
 
 const Popular = React.lazy(() => import('./components/Popular'));
 const Battle = React.lazy(() => import('./components/Battle'));
